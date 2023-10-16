@@ -1,0 +1,147 @@
+.mainDiv{
+    border: 2px solid black;
+    border-radius:20px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    
+    gap:10px;
+   
+    
+    
+    
+}
+footer
+{
+    text-align: left;
+    color:coral;
+}
+a{
+    color:black;
+}
+
+li{
+    list-style-type:square;
+    border:3px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:red;
+}
+#row2
+{
+grid-column:2;
+grid-row:2;
+
+}
+#row3
+{
+    grid-column:2;
+    grid-row:3;
+}
+#row4
+{
+    grid-column:2;
+    grid-row:4;
+}
+#row5
+{
+    grid-column:2;
+    grid-row:5;
+}
+#row6
+{
+    grid-column:2;
+    grid-row:6;
+}
+
+#opis-warana
+{
+    grid-column:1;
+    grid-row: 2;
+    justify-self: center; /* Wyśrodkowanie w poziomie */
+  align-self: center; /* Wyśrodkowanie w pionie */
+   
+  
+    
+}
+#opis-niedźwiedzia
+{
+    grid-column:1;
+    grid-row:3;
+    justify-self: center; /* Wyśrodkowanie w poziomie */
+    align-self: center; /* Wyśrodkowanie w pionie */
+}
+#opis-żarłacza
+{
+    grid-column:1;
+    grid-row:4;
+    justify-self: center; /* Wyśrodkowanie w poziomie */
+    align-self: center; /* Wyśrodkowanie w pionie */
+}
+#opis-bawoła
+{
+    grid-column:1;
+    grid-row:5;
+    justify-self: center; /* Wyśrodkowanie w poziomie */
+    align-self: center; /* Wyśrodkowanie w pionie */
+}
+#opis-słonia
+{
+    grid-column:1;
+    grid-row:6;
+    justify-self: center; /* Wyśrodkowanie w poziomie */
+    align-self: center; /* Wyśrodkowanie w pionie */
+}
+.opis
+{
+    background-color:yellow;
+    border-style:inset;
+    display:inline-block;
+    width:auto;
+    height:auto;
+    
+}
+
+#header1
+{
+    background-color: aqua;
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    border:2px solid blanchedalmond;
+}
+#header2
+{
+    border-top-style: dotted;
+    border-bottom-style:dotted;
+    text-align: center;
+    grid-row:1;
+    grid-column:1/2;
+    
+    
+}
+.animal-item
+{
+
+    margin:10px;
+    
+}
+.animal-image
+{
+        border:2px dashed green;
+        max-width:75%;
+        height:auto;
+
+        
+        
+     
+        
+        
+}
+body
+{
+    background-image:url("https://cdn.pixabay.com/photo/2015/03/30/12/37/jellyfish-698521_1280.jpg") ;
+    background-size: cover; /* Dostosuj rozmiar tła, aby zajmować całą dostępną przestrzeń */
+    background-repeat: no-repeat; /* Wyłącz powtarzanie tła */
+    margin:0px;
+}
+

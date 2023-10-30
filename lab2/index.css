@@ -1,0 +1,29 @@
+h1{
+    text-align:center;
+}
+body
+{
+    background-color: aquamarine;
+}
+#container
+{
+    text-align:left;
+    border:2px solid black;
+    padding:5px;
+}
+#inputAdd
+{
+    background-color:black;
+    color:yellow;
+    
+}
+#searchInput
+{
+    text-align:left;
+}
+#panelMain
+{
+    border:2px solid black;
+    text-align:center;
+
+}

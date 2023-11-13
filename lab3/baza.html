@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="baza.css">
+    <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css">
+    <script src="leaflet-1.7.1/leaflet.js"></script>
+    <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+    <script src="leaflet-1.7.1/leaflet-image.js"></script>
+    <title>Puzzle</title>
+</head>
+<body>
+    <div id="container">
+        <div id="map"></div>
+        <button id="getLocation" class="downloadBtns">Get Current Location</button>
+        <button id="saveButton" class="downloadBtns">Save Raster Map</button>
+
+        <canvas id="rasterMap" class="puzzle-zone"></canvas>
+        <div id="board" class="board">
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+            <div class="puzzle-cell"></div>
+        </div>
+        <div id="puzzleContainer"></div>
+        <button id="checkPuzzles" class="downloadBtns">Check Puzzles</button>
+    </div>
+
+    <script src="baza.js"></script>
+    
+</body>
+</html>
